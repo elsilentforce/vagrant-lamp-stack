@@ -6,3 +6,5 @@ This is a simple Virtual Machine setup for Vagrant, it's provided with the follo
 * PhpMyAdmin 4.0.10
 
 ##Install Instructions
+Just run
+```vagrant init ubuntu/trusty64; vagrant up --provider virtualbox```
