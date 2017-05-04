@@ -7,4 +7,7 @@ This is a simple Virtual Machine setup for Vagrant, it's provided with the follo
 
 ##Install Instructions
 Just run
-```vagrant init ubuntu/trusty64; vagrant up --provider virtualbox```
+```vagrant up```
+
+If you want to install the LAMP Stack, run:
+```vagrant provision```
